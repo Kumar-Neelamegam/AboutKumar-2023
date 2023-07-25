@@ -1,0 +1,8 @@
+---
+deployment:
+  ignore:
+    - ".git/"   
+  tasks:
+    - export DEPLOYPATH=/home/aboummzw/public_html 
+    - /bin/cp -R * $DEPLOYPATH
+  
